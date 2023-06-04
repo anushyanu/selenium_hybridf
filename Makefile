@@ -1,7 +1,7 @@
-all: clean rmlog
+all: clean
 	pytest testCases/test_login.py
 
-clean:
+clean: rmlog
 	rm -f screenshots/*.png
 
 rmlog:
