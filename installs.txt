@@ -1,0 +1,45 @@
+nopcommerce.com/demo - backend testing
+
+step 1: install packages
+
+selenium - python library
+pytest  - python unittest framework
+pytest-html - pytest html reports
+pytest-xdist - run test parallel
+openpyxl - ms excel support
+allure-pytest - to generate allure reports
+
+step 2: create folder structure
+
+pageObjects (package)
+testcase - (package)
+utilities - (package)
+testdata - (folder)
+configuration - (folder)
+logs -     (folder)
+reports -    (folder)
+screenshots -   (folder)
+run.bat
+
+step 3: automating login testcase
+create loginPage object class under pageobjects
+create logintest under testcases
+create conftest.py under testcases
+
+step 4: capture screenshot under failures
+update login test with screenshot under testcases
+
+step 5: read common values from ini file
+# such base url , username ,pwd are everytime needed for login to website
+add "config.ini" file (is not a python file, no rules ) under configurations folder
+create "readProperties.py" utility file under utility package to read common data
+# utility file will read the data from ini file and provide the data to the testcases, it is resuability feature
+replace hard coded values in login testcases
+
+step 6 : add logs to test case
+add customLogger.py under utilities package
+add logs to login test
+
+
+
+
