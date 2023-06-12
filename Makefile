@@ -4,6 +4,9 @@ all: clean
 clean: rmlog
 	rm -f screenshots/*.png
 
-rmlog:
+rmlog: rmreport
 	rm -f logs/*
+
+rmreport:
+	rm -f reports/assests/*
 

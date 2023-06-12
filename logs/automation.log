@@ -1,0 +1,9 @@
+2023/06/12 08:45:07: INFO: ******** test_002_ddt_login ************
+2023/06/12 08:45:07: INFO: ******** verifying test_login_ddt test ************
+2023/06/12 08:45:11: INFO: ** passed **
+2023/06/12 08:45:13: INFO: ** passed **
+2023/06/12 08:45:14: INFO: ** passed **
+2023/06/12 08:45:15: INFO: ** passed **
+2023/06/12 08:45:15: INFO: ***** Login DDT test is passed
+2023/06/12 08:45:15: INFO: **** end of login DDT test case ****
+2023/06/12 08:45:15: INFO:  *** completed login_ddt_002 testcase*******
